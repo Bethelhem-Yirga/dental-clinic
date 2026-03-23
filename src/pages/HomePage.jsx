@@ -149,8 +149,8 @@ const HomePage = () => {
               <div className="w-12 h-1 bg-gradient-to-r from-blue-500 to-blue-300 mx-auto mt-4 rounded-full group-hover:w-24 transition-all"></div>
             </div>
             <div className="stat-card">
-              <div className="text-5xl font-bold gradient-text mb-2">MDCO</div>
-              <div className="text-gray-600 font-medium">Verified</div>
+              <div className="text-5xl font-bold gradient-text mb-2">ISO 9000</div>
+              <div className="text-gray-600 font-medium">Certified</div>
               <div className="w-12 h-1 bg-gradient-to-r from-blue-500 to-blue-300 mx-auto mt-4 rounded-full group-hover:w-24 transition-all"></div>
             </div>
           </div>
