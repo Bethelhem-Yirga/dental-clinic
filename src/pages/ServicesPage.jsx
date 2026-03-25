@@ -200,15 +200,7 @@ const ServicesPage = () => {
                   <p className="text-gray-600 text-sm mb-4 line-clamp-2 group-hover:text-gray-900 transition-colors duration-300">
                     {service.description}
                   </p>
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="text-blue-600 font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-                      {service.price}
-                    </span>
-                    <span className="text-gray-500 text-sm flex items-center">
-                      <span className="mr-1">⏱️</span>
-                      {service.duration}
-                    </span>
-                  </div>
+                  
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
@@ -267,18 +259,7 @@ const ServicesPage = () => {
             <div className="p-8">
               <p className="text-gray-600 mb-6 text-lg">{selectedService.description}</p>
               
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="bg-blue-50 p-4 rounded-lg hover:scale-105 transition-transform duration-300">
-                  <span className="text-gray-500 text-sm block mb-1">Price</span>
-                  <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-                    {selectedService.price}
-                  </div>
-                </div>
-                <div className="bg-blue-50 p-4 rounded-lg hover:scale-105 transition-transform duration-300">
-                  <span className="text-gray-500 text-sm block mb-1">Duration</span>
-                  <div className="text-2xl font-bold text-gray-800">{selectedService.duration}</div>
-                </div>
-              </div>
+          
               
               <h3 className="font-bold text-lg mb-3">What's Included:</h3>
               <ul className="grid grid-cols-2 gap-3 mb-8">
