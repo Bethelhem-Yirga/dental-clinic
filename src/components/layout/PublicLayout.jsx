@@ -153,9 +153,9 @@ const PublicLayout = () => {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-400 rounded-xl flex items-center justify-center">
-                  <span className="text-white text-2xl font-bold">D</span>
+                  <span className="text-white text-2xl font-bold">M</span>
                 </div>
-                <span className="text-2xl font-bold">DENTOI</span>
+                <span className="text-2xl font-bold">MERCY</span>
               </div>
               <p className="text-gray-400 leading-relaxed">
                 Your trusted partner for exceptional dental care. We create beautiful, healthy smiles every day.
