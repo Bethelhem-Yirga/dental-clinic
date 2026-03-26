@@ -8,3 +8,21 @@ A modern, fully responsive dental clinic management system built with React.js. 
 
 ![MERCY Dental Demo](/img/home.gif)
 *Figure 1: Our home page 
+
+## ✨ Live Demo
+
+🔗 **View Live Demo:** [https://mercy-dental-clinic.vercel.app/](https://mercy-dental-clinic.vercel.app/)
+
+## 📋 Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Components Overview](#components-overview)
+- [API & Data Flow](#api--data-flow)
+- [Animations](#animations)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
