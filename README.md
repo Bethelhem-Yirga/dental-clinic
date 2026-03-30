@@ -180,3 +180,65 @@ The application will open at http://localhost:5173
 npm run build
 ```
 The build files will be in the dist folder.
+
+## 🎮 Usage
+
+### Default Login Credentials
+After running the seed data, you can use these accounts:
+# Admin Account
+
+```bash
+Email: admin@dentalclinic.com
+Password: Admin123!
+```
+
+## Patient Flow
+
+- **Browse Public Pages** - Explore services, team, testimonials
+
+- **Register/Login** - Create account or login
+
+- **Book Appointment** - Select date, time, dentist
+
+- **View Appointments** - Check status in dashboard
+
+- **Manage Profile** - Update personal information
+
+## Admin Flow
+
+- **Login** with Admin Credentials
+
+- **View Dashboard** - See all appointments and patients
+
+- **Manage Appointments** - Update statuses (pending → confirmed → completed)
+
+- **View Analytics** - Track patient data
+
+## 🎨 Components Overview
+
+### PublicLayout.jsx
+Navigation bar with responsive mobile menu
+
+Footer with contact info and newsletter
+
+Manages public page layout
+
+### AuthContext.jsx
+Provides authentication state to entire app
+
+Handles login, logout, register functions
+
+Persists user data in localStorage
+
+### useLocalStorage.js
+Custom hook for localStorage operations
+
+Automatically syncs state with localStorage
+
+### seedData.js
+Initializes default admin and patient accounts
+
+Creates sample appointments for testing
+
+Runs once when app starts
+
