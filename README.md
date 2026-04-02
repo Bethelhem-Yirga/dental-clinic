@@ -294,7 +294,7 @@ Animations inspired by Uiverse.io
 Fonts from Google Fonts (Inter, Playfair Display)
 
 ### 📧 Contact
-Your Name - bethelyg909@gmail.com
+Bethelhem-Yirga - bethelyg909@gmail.com
 Project Link: https://github.com/Bethelhem-Yirga/dental-clinic.git
 
 ### ⭐ Show Your Support
